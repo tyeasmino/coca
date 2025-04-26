@@ -71,7 +71,7 @@ const HeroSectionComponent = () => {
                     </div>
                 </div>
 
-                <div className="part-3 flex flex-col gap-5">
+                <div className="part-3 mt-14 flex flex-col gap-5">
                     <div className='w-fit relative group'>
                         <HeroGraphComponent title="Time vs Budget" bg2="#20C9AC" subtitle1="Time Estimation" bg1="#546FFA" subtitle2="Budget" heroGraph={heroImg3} />
 
