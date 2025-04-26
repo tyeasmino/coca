@@ -24,7 +24,7 @@ const MasterTheArtComponent = () => {
 
                     <div className='w-full md:w-1/2 flex justify-end relative'>
                         <img src={commonBg} alt="" />
-                        <div className='bg-white flex flex-col gap-10 md:gap-30 rounded-md p-5 absolute left-6 md:left-30 right-0 top-6 md:top-10 bottom-0'>
+                        <div className='bg-white flex flex-col gap-10 md:gap-30 rounded-md p-5 absolute left-6 md:left-50 -right-2 top-6 md:top-12 -bottom-2'>
                             <h3 className='text-center text-[23px] text-[#1D1E25]'>Project scope</h3>
 
                             <div className='relative text-center w-30 h-30 md:w-60 md:h-60 flex flex-col items-center justify-center mx-auto'>

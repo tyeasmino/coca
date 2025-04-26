@@ -6,6 +6,8 @@ import NavbarComponent from './components/NavbarComponent'
 import HeroSectionComponent from './components/HeroSectionComponent'
 import OurUserFriendlyComponent from './components/OurUserFriendlyComponent'
 import MasterTheArtComponent from './components/MasterTheArtComponent'
+import OurServicesComponent from './components/smallComponents/OurServicesComponent'
+import SimplifySchedulingComponent from './components/SimplifySchedulingComponent'
 
 function App() {
 
@@ -32,7 +34,12 @@ function App() {
         <MasterTheArtComponent />
 
 
+        {/* Our Service Section */}
+        <OurServicesComponent />
 
+
+        {/* Simplify schedule Section */}
+        <SimplifySchedulingComponent />
 
 
       </main>
