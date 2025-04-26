@@ -15,12 +15,12 @@ import HeroHoverComponent from './smallComponents/HeroHoverComponent'
 const HeroSectionComponent = () => {
     return (
         <section className='py-16'>
-            <div className='px-10'>
-                <h2 className='max-w-[905px] mx-auto text-[82px] text-center text-white leading-20'>Improve efficiency through time tracking.</h2>
-                <p className='max-w-[740px] mx-auto py-5 text-[18px] text-[#ffffffd0] font-semibold text-center leading-[32px] '>How to overcome common challenges and pitfalls when trying to adopt time tracking and efficient work habits, and build sustainable habits that lead to lasting success</p>
+            <div className='md:px-10'>
+                <h2 className='max-w-[905px] mx-auto text-[28px] md:text-[82px] text-center text-white md:leading-20'>Improve efficiency through time tracking.</h2>
+                <p className='max-w-[740px] mx-auto py-5 text-[13px]  md:text-[18px] text-[#ffffffd0] font-semibold text-center md:leading-[32px] '>How to overcome common challenges and pitfalls when trying to adopt time tracking and efficient work habits, and build sustainable habits that lead to lasting success</p>
             </div>
 
-            <section className='flex items-start justify-between py-10'>
+            <section className='flex flex-col md:flex-row items-center md:items-start justify-between py-10'>
                 <div className='part-1 flex flex-col gap-5'>
                     <div className='w-fit relative group'>
                         <HeroGraphComponent title="Income vs Expenses" bg1="#20C9AC" subtitle1="Projects Earnings" bg2="#546FFA" subtitle2="Labor Cost" heroGraph={heroImg1} />
@@ -38,7 +38,7 @@ const HeroSectionComponent = () => {
                 </div>
 
                 <div className='part-2 flex flex-col gap-10 items-center'>
-                    <div className='flex items-center gap-10 relative mt-10'>
+                    <div className='flex flex-col md:flex-row items-center gap-4 md:gap-10 relative mt-20 md:mt-10'>
                         <div className="text-cookie absolute -left-10 -top-14 ">
                             <div className='w-[60px] text-center rotate-20 text-white '>
                                 <span className='text-[12px]'>All research start from here</span>
@@ -55,7 +55,7 @@ const HeroSectionComponent = () => {
                     </div>
 
                     <div className='bg-white rounded-md p-5 flex flex-col gap-5'>
-                        <div className='flex  items-center justify-between'>
+                        <div className='flex flex-col md:flex-row gap-2  items-center justify-between'>
                             <div className='flex gap-5 items-center'>
                                 <div className='w-[13px] h-[26px] bg-[#426AE4] rounded'></div> <span className='text-[17px] font-semibold' >Time Tracking</span>
                             </div>

@@ -5,11 +5,11 @@ const OurUserFriendlyComponent = () => {
         <section className='bg-[#FCFCFC] py-15 flex flex-col gap-10'>
             <div className='container'>
                 <div className=''>
-                    <h2 className='max-w-[905px] font-semibold mx-auto text-[52px] text-center text-[#1D1E25] leading-15'>Our user-friendly interface allows for easy management of tasks</h2>
-                    <p className='max-w-[590px] mx-auto py-5 text-[18px] text-[#7E8492] font-semibold text-center leading-[24px] '>The Simple Solution to Task Management: Our Interface Offers an Easy and Efficient Way to Manage Your Tasks</p>
+                    <h2 className='max-w-[905px] font-semibold mx-auto text-[20px] md:text-[52px] text-center text-[#1D1E25] md:leading-15'>Our user-friendly interface allows for easy management of tasks</h2>
+                    <p className='max-w-[590px] mx-auto py-5 text-[13px] md:text-[18px] text-[#7E8492] font-semibold text-center leading-[24px] '>The Simple Solution to Task Management: Our Interface Offers an Easy and Efficient Way to Manage Your Tasks</p>
                 </div>
 
-                <div className='grid grid-cols-3 gap-8 my-14'>
+                <div className='grid grid-cols-1 md:grid-cols-3 gap-8 my-14'>
                     <section className='flex flex-col justify-between gap-5 border border-[#EDEDED] p-8 rounded-2xl  border-secondary'>
                         <div className='flex items-center justify-between'>
                             <h3 className='text-[18px] text-[#1D1E25] font-semibold  '>Top Clients</h3>

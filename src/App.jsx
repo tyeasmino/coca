@@ -14,9 +14,9 @@ function App() {
       {/* Header Section */}
 
       <header>
-        <section className='container'>
+        <section className='container px-5 md:px-[100px]'>
           <NavbarComponent />
-          <div className='w-[1200px] h-[0.5px] bg-[#ffffff80] mx-auto '></div>
+          <div className='md:w-[1200px] h-[0.5px] bg-[#ffffff80] mx-auto '></div>
           <HeroSectionComponent />
         </section>
       </header>
